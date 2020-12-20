@@ -14,13 +14,7 @@
           :default-selected-keys="selectedKeys"
         >
           <a-menu-item key="我的OKR">
-<<<<<<< HEAD
             <router-link to="/userokr">
-=======
-            <router-link
-              to="/userokr"
-            >
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
               <a-icon type="read" />
               <span>我的OKR</span>
             </router-link>
@@ -93,7 +87,6 @@
           </a-menu-item>
         </a-menu>
       </a-layout-sider>
-<<<<<<< HEAD
       <a-layout>      
           <a-layout-header style="background: #fff; padding: 0 ">
             <a-icon
@@ -108,16 +101,6 @@
               <a-breadcrumb-item>{{$route.meta.title}}</a-breadcrumb-item>
             </template>          
           <a-dropdown style="float:right">
-=======
-      <a-layout>
-        <a-layout-header style="background: #fff; padding: 0 ">
-          <a-icon
-            class="trigger"
-            :type="collapsed ? 'menu-unfold' : 'menu-fold'"
-            @click="() => (collapsed = !collapsed)"
-          />
-          <a-dropdown style="margin-right:20px;float:right">
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
             <a
               class="ant-dropdown-link"
               @click="e => e.preventDefault()"
@@ -140,17 +123,10 @@
                 </a>
               </a-menu-item>
             </a-menu>
-<<<<<<< HEAD
           </a-dropdown>          
         </a-layout-header>
        
         <a-layout-content :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }">         
-=======
-          </a-dropdown>
-        </a-layout-header>
-        <a-layout-content :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }">
-          <bread></bread>
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
           <router-view></router-view>
         </a-layout-content>
       </a-layout>
@@ -159,10 +135,6 @@
 </template>
 <script>
 import Bread from '../components/Bread.vue';
-<<<<<<< HEAD
-
-=======
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
 export default {
   components: { Bread },
   data() {
@@ -199,10 +171,6 @@ export default {
       weight: blod;
       family: 楷体;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
     background: rgba(255, 255, 255, 0.2);
     margin: 16px;
   }
@@ -212,10 +180,6 @@ export default {
     padding: 0 24px;
     cursor: pointer;
     transition: color 0.3s;
-<<<<<<< HEAD
-
-=======
->>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
     &:hover {
       color: #1890ff;
     }
