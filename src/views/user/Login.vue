@@ -1,10 +1,18 @@
 <template>
   <div class="login-box">
+<<<<<<< HEAD
     <form class="login-form" method="post">
       <div class="hide-login-btn">
       <h1>Welcome</h1>
       <input class="txtb" name="username" type="text" placeholder="Username" v-model="loginForm.username">
       <input class="txtb" name="password" type="password" placeholder="Password" v-model="loginForm.password">
+=======
+    <form class="login-form"  method="post">
+      <div class="hide-login-btn">
+      <h1>Welcome</h1>
+      <input class="txtb" type="text" placeholder="Username" v-model="loginForm.username">
+      <input class="txtb" type="password" placeholder="Password" v-model="loginForm.password">
+>>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
       <input class="login-btn" type="button" name="" v-on:click="login" value="Login">
       </div>
     </form>
@@ -12,7 +20,10 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
 export default {
   name: "Login",
   data () {
@@ -30,13 +41,19 @@ export default {
             this.loginForm.username === "admin" && 
             this.loginForm.password === "123456"
         ){
+<<<<<<< HEAD
             this.$message.success('登录成功',1,() =>{
                 this.$router.push('/userokr')
+=======
+            this.$message.success('登录成功',2,() =>{
+                this.$router.push('/')
+>>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
             });
         }else{
             this.$message.warning('用户名或密码错误');
 
         }
+<<<<<<< HEAD
     }
   },
   
@@ -94,4 +111,12 @@ body {
     border-radius: 6px;
     cursor: pointer;
 }
+=======
+     
+    }
+  },
+}
+</script>
+<style scoped>
+>>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
 </style>

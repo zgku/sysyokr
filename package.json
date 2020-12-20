@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "ant-design-vue": "^1.7.2",
+<<<<<<< HEAD
     "axios": "^0.21.0",
+=======
+>>>>>>> 2296edc13c9dfbe22a6ae61788021d195174f3cf
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
